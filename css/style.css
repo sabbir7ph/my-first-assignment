@@ -98,3 +98,35 @@ section {
 .person-content ul li i {
     color: #16d887;
 }
+
+/* plan style */
+.my-plan {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.my-plan-title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    text-align: center;
+}
+
+.box h2 {
+    padding: 16px 0;
+
+}
+
+.box p {
+    font-weight: 500;
+    font-size: 20px;
+
+
+    color: #737272;
+
+}
