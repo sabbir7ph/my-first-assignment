@@ -130,3 +130,114 @@ section {
     color: #737272;
 
 }
+
+/* watch section stye */
+.watch {
+    background-image: url(../images/watch.png),
+        linear-gradient(to right, #F15B22 0%, white);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 30vh;
+    background-position: center, center;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+
+
+
+}
+
+.watch-content {
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+
+.watch-content h4 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 400px;
+
+}
+
+/* footer style  */
+footer {
+    background: #151414;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 30vh;
+    padding: 100px 0;
+    margin-top: 130px;
+
+}
+
+.left-footer-content {
+    width: 466px;
+}
+
+.left-footer-content h2 {
+    font-weight: 700;
+
+    font-size: 45px;
+
+    padding-bottom: 16px;
+}
+
+.left-footer-content p {
+    line-height: 26px;
+
+    padding-bottom: 24px;
+}
+
+.left-footer-content ul {
+    list-style: none;
+}
+
+.left-footer-content ul li {
+    padding-bottom: 16px;
+}
+
+.social-icons {
+    padding-top: 8px;
+}
+
+.social-icons i {
+    font-size: 30px;
+
+    margin-left: 17px;
+}
+
+.right-footer-content {
+    width: 260px;
+}
+
+.right-footer-content h4 {
+    font-weight: 600;
+
+    font-size: 25px;
+
+    padding-bottom: 31px;
+}
+
+.right-footer-content input {
+    padding: 21px 130px 21px 15px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+}
+
+.right-footer-content input::placeholder {
+    color: #ffff;
+    text-align: left;
+}
+
+.right-footer-content .btn-primary {
+    background: #FFFFFF;
+    color: #F15B22;
+    margin-top: 16px;
+}
