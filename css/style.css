@@ -50,3 +50,51 @@ header {
     font-weight: 600;
     font-size: 20px;
 }
+
+section {
+    padding-top: 130px;
+}
+
+.failure {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.person-image {
+    margin-left: 230px;
+}
+
+.person-content {
+    width: 420px;
+    margin-left: 87px;
+    margin-top: 130px;
+}
+
+.person-content h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 281px;
+    padding-bottom: 24px;
+    color: #151414;
+}
+
+.person-content p {
+    line-height: 26px;
+    padding-bottom: 16px;
+    color: #444343;
+
+}
+
+.person-content ul {
+    list-style: none;
+}
+
+.person-content ul li {
+    line-height: 30px;
+}
+
+.person-content ul li i {
+    color: #16d887;
+}
